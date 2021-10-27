@@ -1,6 +1,6 @@
 ## Running the code on Local
 
-From Author: Web Service related work is not my expert / experienced area. I was working at Agoda as a Software Engineer which maining focused on the operation aspect of the website. To be more specific, the back-end logic part of the system. So this take-home-test is quite new to me. So i couldn't create the project from scratch, i have to start from the shopping-cart code provided by the AKKA tutorial and used them as a starting point of the project then refactor, modify and develope from that to be able to satisfy the requirement. The logic is totally different but the AKKA and web service technique remains the same such as Event Sourcing. As a result, some variables and relevant config file names can not be changed due to some fixed dependency.
+From Author: Web Service related work is not my expert / experienced area. I was working at Agoda as a Software Engineer which maining focused on the operation aspect of the website. To be more specific, the back-end logic part of the system. So this take-home-test is quite new to me. So i did not develope the project from scratch, i have to start from the shopping-cart code provided by the AKKA tutorial and used them as a starting point of the project then refactor, modify and develope from that to be able to satisfy the requirement. The logic is totally different but the AKKA and web service technique remains the same such as Event Sourcing. As a result, some variables and relevant config file names can not be changed due to some fixed dependency.
 
 
 1. Start Docker

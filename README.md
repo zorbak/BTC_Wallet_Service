@@ -1,5 +1,8 @@
 ## Running the code on Local
 
+From Author: Web Service related work is not my expert / experienced area. I was working at Agoda as a Software Engineer which maining focused on the operation aspect of the website. To be more specific, the back-end logic part of the system. So this take-home-test is quite new to me. So i have to start from the shopping-cart code provided by the AKKA tutorial and used them as a starting point of the project then modify it to be able to satisfy the requirement. As a result, some variables and relevant config file names can not be changed due to dependency.
+
+
 1. Start Docker
 
     ```shell

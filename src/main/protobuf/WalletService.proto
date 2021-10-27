@@ -1,0 +1,56 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "shopping.cart.proto";
+
+package shoppingcart;
+
+
+
+
+service WalletService {
+
+
+    rpc AddTransaction (AddTransactionRequest) returns (wallet) {}
+    rpc UpdateTransaction (UpdateTransactionRequest) returns (wallet) {}
+    rpc GetWalletBalance(GetWalletBalanceRequest) returns (GetWalletBalanceResponse) {}
+    
+}
+
+
+
+
+message AddTransactionRequest {
+    string walletId = 1;
+    string datetime = 2;
+    double amount = 3;
+}
+
+message UpdateTransactionRequest {
+    string walletId = 1;
+    string datetime = 2;
+    double amount = 3;
+}
+
+
+
+message wallet {
+    repeated Transaction transactions = 1;
+}
+
+
+message Transaction {
+    string datetime = 1;
+    double amount = 2;
+}
+
+
+message GetWalletBalanceRequest {
+    string starttime = 1;
+    string endtime = 2;
+}
+
+message GetWalletBalanceResponse {
+    repeated Transaction transactions = 1;
+}
+
